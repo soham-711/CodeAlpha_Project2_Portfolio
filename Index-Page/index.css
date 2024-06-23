@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #070c08;
+    width: 90%;
+}
+
+#content-holder{
+    background: linear-gradient( 150deg,#4b4b4b , #494949 , #414141 , #393939 );
+    height: 90vh;
+    width: 90%;
+    margin: 37px 30px 0px 40px;
+    padding-right: 210px;
+   border-radius: 10px;
+   box-shadow: 0 0 70px 5px rgba(255, 255, 255, 0.8);
+}
+
+#navbar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 1.5rem;
+}
+
+.navitem{
+    color: #fefefe;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+#name{
+    position: relative;
+    top: 50vh;
+    left: 10vw;
+}
+
+h6{
+    color: #fefefe;
+    font-size: x-large;
+}
+h1{
+    color: #fefefe;
+    font-size: 3.5rem;
+}
+
+#soham{
+    color: #e13556;  
+}
+
+#image{
+width:fit-content;
+ position: relative;
+ left: 55vw;
+ bottom: 5rem;
+}
+

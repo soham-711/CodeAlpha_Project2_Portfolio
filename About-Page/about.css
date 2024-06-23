@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #393939;
+    position: fixed;
+   
+}
+
+
+
+#my-image{
+    width: fit-content;
+    height:fit-content;
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+}
+
+#mypic{
+    border-radius: 15px;
+    height: 80vh;
+    box-shadow:  10px 6px 10px rgba(255, 255, 255, 0.3);
+}
+
+#about{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 35vw;
+    bottom: 72vh;
+    color: #fefefe;
+}
+
+#title{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 1.5rem;
+}
+
+#skills{
+    position: relative;
+    top: 50px;
+    right: 26px;
+}
+
+#skill1, #skill2 ,#skill3 ,#skill4{
+    margin: 30px;
+}
+#skill2 , #skill3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1{
+    color: #fefefe;
+    font-size: 3.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#text{
+    font-weight: normal;
+    font-size: 0.9rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#title{
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+.known{
+    font-size: 1.2rem;
+    color: #e13556;
+}
+.title{
+    font-size: 1rem;
+    margin: 5px;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#image{
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  bottom:35vh;
+  left: 30vw;
+}

@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+#text-holder{
+    margin-left:4.5rem;
+    margin-top: 3rem;
+    background-color:black ;
+    border-radius: 5px;
+    width: 90%;
+    height: 87vh;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.8);
+
+}
+
+#contact{
+    color: #fefefe;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:10px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+
+#contact-info{
+    margin: 20px;
+    position: relative;
+    top: 22px;
+}
+
+#contact-info i{
+    color: #e13556;
+    font-size: 20px;
+    margin: 10px;
+    position: relative;
+    left: 10px;
+}
+
+#contact-info p{
+    color:#fefefe ;
+    position: relative;
+    bottom: 32px;
+    left: 55px;
+}
+
+#social-media{
+    width: fit-content;
+    position: relative;
+    left: 35px;
+}
+
+#social-media i{
+    color: #fefefe;
+    margin: 10px;
+    font-size: 30px;
+}
+
+#btn{
+    width: fit-content;
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+}
+
+#btn1{
+    background-color: #e13556;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 6px;
+    color: #fefefe;
+    font-weight: bold;
+}
+
+
+
+#form{
+    position: relative;
+    bottom: 37vh;
+    left: 45vw;
+}
+
+.txt{
+  height: 5vh;
+  width: 35vw;
+  margin: 10px;
+  padding-left: 10px;
+  background-color: #222421;
+  border: none;
+  border-radius: 6px;
+  color: #717370;
+  outline: none;
+}
+
+#feedback{
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+    top: 15px;
+    left: 12px;
+    background-color: #222421;
+    border: none;
+    border-radius: 6px;
+    color: #717370;
+    outline: none;
+}
+
+#sub{
+    position: relative;
+    left: 16vw;
+    top: 7vh;
+    padding: 10px 30px 10px 30px;
+    background-color: #e13556;
+    color: #fefefe;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+
+
+#foot{
+    background-color: #222421;
+    width: 100%;
+    height: 7vh;
+    position: relative;
+    top: 13px;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: red;
+}
+#foot-text{
+   color: #fefefe; 
+   font-weight: bold;
+}
